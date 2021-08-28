@@ -83,7 +83,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="knG-QU-Lis" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-857" y="-333"/>
+            <point key="canvasLocation" x="-816" y="-333"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="eWH-f3-tXr">
@@ -93,7 +93,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ejY-wd-eiR">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ejY-wd-eiR">
                             <size key="itemSize" width="334" height="100"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -120,6 +120,14 @@
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="userActionLabel" destination="NmZ-CP-zmQ" id="beJ-nO-SXK"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -129,7 +137,8 @@
                     </collectionView>
                     <navigationItem key="navigationItem" title="Main View Controller" id="y95-ge-2iF"/>
                     <connections>
-                        <segue destination="ylD-6X-qF6" kind="show" identifier="View Character" id="nkM-RC-j2I"/>
+                        <segue destination="ylD-6X-qF6" kind="show" identifier="Rick" id="nkM-RC-j2I"/>
+                        <segue destination="ylD-6X-qF6" kind="show" identifier="Morty" id="AFB-Zk-Llh"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ig-1V-1YU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -153,6 +162,9 @@
             <point key="canvasLocation" x="-2518" y="-333"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nkM-RC-j2I"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

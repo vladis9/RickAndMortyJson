@@ -16,6 +16,7 @@
 		F50491BE26D62F9500306E4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50491BD26D62F9500306E4C /* MainViewController.swift */; };
 		F50491C226D6512500306E4C /* UserActionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50491C126D6512500306E4C /* UserActionViewCell.swift */; };
 		F50491C526D651F400306E4C /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50491C426D651F400306E4C /* CharacterCell.swift */; };
+		F5DC9A2F26DA3F6500F41FB5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC9A2E26DA3F6500F41FB5 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F50491BD26D62F9500306E4C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F50491C126D6512500306E4C /* UserActionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionViewCell.swift; sourceTree = "<group>"; };
 		F50491C426D651F400306E4C /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		F5DC9A2E26DA3F6500F41FB5 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F50491A626D504CE00306E4C /* SceneDelegate.swift */,
 				F50491AA26D504CE00306E4C /* Main.storyboard */,
 				F50491C426D651F400306E4C /* CharacterCell.swift */,
+				F5DC9A2E26DA3F6500F41FB5 /* Character.swift */,
 				F50491C126D6512500306E4C /* UserActionViewCell.swift */,
 				F50491BD26D62F9500306E4C /* MainViewController.swift */,
 				F50491BA26D5054C00306E4C /* CharactersViewController.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				F50491A526D504CE00306E4C /* AppDelegate.swift in Sources */,
 				F50491BB26D5054C00306E4C /* CharactersViewController.swift in Sources */,
+				F5DC9A2F26DA3F6500F41FB5 /* Character.swift in Sources */,
 				F50491A726D504CE00306E4C /* SceneDelegate.swift in Sources */,
 				F50491C526D651F400306E4C /* CharacterCell.swift in Sources */,
 				F50491C226D6512500306E4C /* UserActionViewCell.swift in Sources */,
